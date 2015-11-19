@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{8590CA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hinshlabs.CommandLineParser.DemoCSharp", "Source\Hinshlabs.CommandLineParser.DemoCSharp\Hinshlabs.CommandLineParser.DemoCSharp.csproj", "{45E88F42-E409-4585-B260-46C5E10122A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Packaging", "Packaging\Packaging.csproj", "{C431AF99-49CC-4444-8054-D66BBEC101B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{45E88F42-E409-4585-B260-46C5E10122A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E88F42-E409-4585-B260-46C5E10122A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E88F42-E409-4585-B260-46C5E10122A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C431AF99-49CC-4444-8054-D66BBEC101B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C431AF99-49CC-4444-8054-D66BBEC101B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C431AF99-49CC-4444-8054-D66BBEC101B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C431AF99-49CC-4444-8054-D66BBEC101B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
