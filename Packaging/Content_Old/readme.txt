@@ -1,0 +1,1 @@
+This package has been replaced by "CommandLineParser.CSharp" which is a dependancy of this package

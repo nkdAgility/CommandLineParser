@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hinshlabs.CommandLineParser.CommandBase(Of TCommandLine)">
+    <Position X="0.5" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAgAEBAAIgAAAQIAAAAAAAAACIAAAAAAAI=</HashCode>
+      <FileName>Commands\CommandBase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hinshlabs.CommandLineParser.CommandCollection" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAACAgAEACAIgAAAUIAAAAIAAAAAAAAAAABAI=</HashCode>
+      <FileName>Commands\CommandCollection.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Commands" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hinshlabs.CommandLineParser.DelegateCommand(Of TCommandLine)">
+    <Position X="3.5" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEAAgAEBAAIwAAAQIIAAAAAAEACAAAABAAAA=</HashCode>
+      <FileName>Commands\DelegateCommand.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Hinshlabs.CommandLineParser.ICommandExecution">
+    <Position X="9.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Commands\ICommand.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hinshlabs.CommandLineParser.ICommandDefinition">
+    <Position X="10.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAIgAAAQIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ICommand.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

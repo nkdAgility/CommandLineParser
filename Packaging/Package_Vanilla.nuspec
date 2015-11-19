@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Hinshlabs.CommandLineParser</id>
+    <version>0.0.0.0</version>
+    <title>Command Line Parser (Binaries Only)</title>
+    <authors>MrHinsh</authors>
+    <owners>MrHinsh</owners>
+    <licenseUrl>http://hinshlabs.codeplex.com/license</licenseUrl>
+    <projectUrl>http://hinshlabs.codeplex.com/releases/view/64408</projectUrl>
+    <iconUrl>http://blog.hinshelwood.com/files/2012/03/metro-logo-128-link.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      This is a nice little command line parser based on Ray Hayes codeproject article Automatic Command Line Parsing in C#. I have adapted it to VB.NET and upgraded it to .NET 3.5.
+
+      An updated command line parser that has a built in commanding architecture. The usage varies depending on what you are trying to achieve, but you can have commands, nested commands and delegate commands.
+
+      You just add this assembly to your project and adda bunch of command objects...
+
+      note: From this version you have to set "DefaultCommandAction" on the constructor for the CommandCollection to "Loop" in order to stay in the application.
+    </description>
+    <summary>An updated command line parser that has a built in commanding architecture.</summary>
+  </metadata>
+    <files>
+      <file src="Binaries\Hinshlabs.CommandLineParser.*" 
+            exclude="Binaries\Hinshlabs.CommandLineParser.Demo*"
+            target="lib\net40" />
+    </files>
+</package>
