@@ -1,6 +1,4 @@
-﻿Imports System.Resources
-
-Imports System
+﻿Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -11,12 +9,16 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Hinshlabs.CommandLineParser")> 
+<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyProduct("Hinshlabs.CommandLineParser")> 
+<Assembly: AssemblyCopyright("Copyright ©  2016")> 
+<Assembly: AssemblyTrademark("")> 
 
+<Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("8949de77-2f40-4350-a342-35e8d33767a9")>
-
-<Assembly: NeutralResourcesLanguageAttribute("en")>
+<Assembly: Guid("e243fed6-0a98-4fed-b1dd-ea0fd469d7d1")> 
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -29,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.0.0.0")> 
-<Assembly: AssemblyFileVersion("2.0.0.0")>
+<Assembly: AssemblyVersion("1.0.0.0")> 
+<Assembly: AssemblyFileVersion("1.0.0.0")> 
